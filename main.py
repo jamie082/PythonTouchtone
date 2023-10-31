@@ -22,19 +22,19 @@ if cat == "l": # Length
         print (f"{m} m is equal to {km} km")
 
     elif unit1 == "two":
-        class myClass:
+        class MyClass:
 
-          def __init__ (self, Model, Description, price):
-            self.Model = Model
-            self.Description = Description
-            self.price = int(price)
-
+          def __init__ (self, name, occupation):
+              self.name = name
+              self.occupation = occupation
+              
           def display_info(self):
               print(f"Name: {self.name}")
-              print(f"Age: {self.age}")
-
+              print(f"Occupation: {self.occupation}")
+      
+        obj = MyClass("Jamie", "Software_Engineer")
               # Accessing attributes and calling methods
-              obj.display_info()
+        obj.display_info()
               
 if cat == "w": # Width
     if unit1 == "kg" and unit2 == "g":
