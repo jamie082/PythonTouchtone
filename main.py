@@ -5,8 +5,8 @@ import time
 i = 1
 while i < 3: # loop 3times
   cat = input ("Which category would you like to convert? we support length(l) and   Weight(w) or (e) engineer: ")
-  unit1 = input ("Which unit would you like to convert from: ")
-  unit2 = input ("Which unit would you like to convert to: ")
+  unit1 = input ("Which unit would you like to convert from (ENTER 0 TO FOR ENGINEER): ")
+  unit2 = input ("Which unit would you like to convert to (ENTER 0 FOR ENGINEER) ")
 
   # Calculations
 
@@ -41,7 +41,7 @@ while i < 3: # loop 3times
           self.name = name
           self.occupation = occupation
 
-      def display_info(self):
+        def display_info(self):
           print(f"Name: {self.name}")
           print(f"Occupation: {self.occupation}")
 
