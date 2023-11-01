@@ -4,7 +4,7 @@ import time
 #variable setting
 i = 1
 while i < 3: # loop 3times
-  cat = input ("Which category would you like to convert? we support length(l) and   Weight(w) or (e) engineer: ")
+  cat = input ("Which category would you like to convert? we support length(l) and   Weight(w): ")
   unit1 = input ("Which unit would you like to convert from: ")
   unit2 = input ("Which unit would you like to convert to: ")
 
@@ -15,8 +15,12 @@ while i < 3: # loop 3times
         m = km * 1000
         print (f"{km} km is equal to {m} m")
     elif unit1 == "m" and unit2 == "km":
-        m = float(input("Enter the value in m: "))
-        km = float(input("Enter the value in km: "))
+      class temp_class:  # class example for program
+        def __init__(self):
+          pass
+        
+        m = int(input("Enter first number: "))
+        km = int(input("Enter second number: "))
         km = m / 1000
         print (f"{m} m is equal to {km} km")
               
