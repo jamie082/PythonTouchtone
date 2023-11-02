@@ -2,9 +2,9 @@ import math
 import time
 # Unit convertions
 #variable setting
-i = 1
-while i < 3: # loop 3times
-  cat = input ("Which category would you like to convert? we support length(l) and   Weight(w): ")
+count = 0
+while count < 3: # loop 3times
+  cat = input ("Which category would you like to convert? we support length(l) and Weight(w): ")
   unit1 = input ("Which unit would you like to convert from: ")
   unit2 = input ("Which unit would you like to convert to: ")
 
